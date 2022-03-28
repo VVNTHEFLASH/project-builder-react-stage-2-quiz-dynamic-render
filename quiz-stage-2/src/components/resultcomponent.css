@@ -1,0 +1,75 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.result-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(67, 235, 67);
+}
+.result-head>h1{
+    font-size: 35pt;
+}
+#cir{
+    height: 13vh;
+}
+.mid-container{
+    background: white;
+    width: 100vh;
+    height: 45vh;
+}
+.mid-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mid-result>h1{
+    color: rgb(0, 119, 255);
+    font-size: 30pt;
+    position: relative;
+    bottom: 10px;
+}
+.mid-result>h2{
+    color: grey;
+    font-size: 20pt;
+}
+.span-text,.span-number{
+    display: flex;
+    flex-direction: column;
+}
+.span-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: gray;
+}
+.button-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 20px;
+    background: none;
+    padding: 2px;
+    width: 130px;
+}
+button:nth-child(1) {
+    color: rgb(0, 119, 255);
+    border: rgb(0, 119, 255) 1px solid;
+}
+button:nth-child(2) {
+    color: rgb(17, 226, 17);
+    border: rgb(17, 226, 17) 1px solid;
+}

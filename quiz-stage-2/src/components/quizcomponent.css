@@ -1,0 +1,76 @@
+*{
+    font-family: cursive;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: slateblue;
+}
+.quiz-container{
+    height: 55vh;
+    width: 125vh;
+    background: white;
+    border-left: 5px #008cff solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.question-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container>span{
+    position: relative;
+    right: 400px;
+    bottom: 50px;
+    color: #bebaba;
+}
+.choice-btn{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.choice-btn>button {
+    background: #008cff;
+    border: none;
+    padding: 12.5px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 15px 30px;
+    color: white;
+}
+.action-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-btn>button{
+    margin: 0 15px;
+}
+#p-btn,#n-btn,#q-btn{
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+    font-size: x-small;
+    width: 80px;
+    height: 22px;
+}
+#p-btn{
+    background: #008cff;
+}
+#q-btn{
+    background: rgba(255, 0, 0, 0.76);
+}
+#n-btn{
+    background: #17cc3e;
+}
+button{
+    cursor: pointer;
+}
